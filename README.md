@@ -24,11 +24,11 @@ Je décide directement d'utiliser "steghide extract -sf thm.jpg" mais on me dema
 
 Je check les magic numbers grace a "hexedit thm.jpg" et je découvre quelque chose d'étrange.
 
-En effet, les magics numbers affichés sont : "89 50 4e 47" ceux sonbt la signature des fichiers PNG et non JPEG.
+En effet, les magics numbers affichés sont : "89 50 4e 47" ce sont la signature des fichiers PNG et non JPEG.
 Grace a cette ressource : https://gist.github.com/leommoore/f9e57ba2aa4bf197ebc5 je trouve les magic numbers d'un fichier JPEG, et je remplace les anciens via hexedit.
 
 je vérifie : file thm.jpg 
-output :thm.jpg: JPEG image data
+output : thm.jpg: JPEG image data
 Je devrais donc etre en mesure d'ouvrir l'image.
 J'essaye mais ça ne marche pas.
 
