@@ -99,7 +99,7 @@ Premier ressenti : j'ai très peur de la "madness" de l'escalade de privilèges.
 Ma machine THM a expiré tellement je me suis creusé la tête. Changement d'IP.
 
 Chaque chose en son temps, tout d'abord le user flag.
-tout simplement cat user.txt : THM{d5781e53b130efe2f94f9b0354a5e4ea}
+tout simplement cat user.txt : THM{REDACTED}
 
 sudo -l : pas de sudo pour joker.
 Enumerer les binaires qui ont des permissions SUID : find / -perm -u=s -type f 2>/dev/null
@@ -138,7 +138,7 @@ Bingo !
 
 Et voilà. Je me suis un peu trop creusé la tête sur l'escalade de privilèges, du fait de la "Madness" précédente..
 Flag root : cat /root/root.txt
-THM{5ecd98aa66a6abb670184d7547c8124a} 
+THM{REDACTED} 
 
 Une box qui m'a permis de m'apprendre à revenir en arrière, et penser en dehors des cheminements classiques. J'ai découvert des outils de stéganographie très utiles. J'ai aussi appris qu'il fallait garder la tête froide et rester objectif. Rester simple et efficace, et quand rien ne marche, savoir changer totalement sa manière de penser. Je retiens aussi qu'il faut que je recherche absolument CHAQUE potentielles pistes en profondeur, pas seulement sur gtfobins etc.
 
